@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.argusufkyto.toko">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".helpers.PenampunganGlobal"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TOKO DIGITAL"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".adapters.SepatuList" />
+        <activity android:name=".activities.Sepatu.ListActivity" />
+        <activity android:name=".activities.Sepatu.UpdateActivity" />
+        <activity
+            android:name=".activities.GoogleSignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".adapters.TransactionList" />
+        <activity android:name=".activities.TransactionActivity" />
+        <activity android:name=".activities.Sepatu.AddActivity"></activity>
+    </application>
+
+</manifest>

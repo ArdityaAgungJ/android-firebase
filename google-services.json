@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "483292409926",
+    "firebase_url": "https://fir-toko.firebaseio.com",
+    "project_id": "fir-toko",
+    "storage_bucket": "fir-toko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483292409926:android:c472d39a0e3ca3f2",
+        "android_client_info": {
+          "package_name": "com.argusufkyto.toko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483292409926-i5fenjetqufq76hqv5bmvi8k522skmo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.argusufkyto.toko",
+            "certificate_hash": "1af6ddf237adfd6a1026b2f7d7fea166cd4f626b"
+          }
+        },
+        {
+          "client_id": "483292409926-keshpvrcpagbvuc85cfi04rq4vbf06nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4JFVoD-r8s5xCJoEpxAFzWXSFX-Mpia4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483292409926-keshpvrcpagbvuc85cfi04rq4vbf06nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
